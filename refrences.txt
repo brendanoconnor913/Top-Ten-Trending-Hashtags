@@ -1,0 +1,11 @@
+The resources used in the process of creating project:
+
+https://dev.twitter.com/docs
+http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/
+https://hadoop.apache.org/docs/r2.6.0/hadoop-mapreduce-client/hadoop-mapreduce-client-core/HadoopStreaming.html
+https://dev.twitter.com/oauth/overview/single-user
+https://dev.twitter.com/rest/reference/get/search/tweets
+http://stackoverflow.com/questions/613183/sort-a-python-dictionary-by-value
+http://www.bogotobogo.com/Hadoop/BigData_hadoop_Install_on_ubuntu_single_node_cluster.php
+https://hdfscli.readthedocs.io/en/latest/quickstart.html#configuration
+http://stackoverflow.com/questions/273192/how-to-check-if-a-directory-exists-and-create-it-if-necessary
