@@ -1,6 +1,3 @@
-# PBDMProject1TrendingHTs
-A system to download tweets, calculate the 10 most popular tweets categorize tweets by hashtags and upload to hadoop
+# Top Ten Trending Hashtags
 
-TODO: Write final report of project
-
-NOTE: Please don't share/show the code with anyone outside this group. I do research with Dr. Rao and so if any work similar enough to this is submitted by someone else it would look poorly. -Thanks Brendan
+The purpose of this project was to collect tweets via Twitter's API and from these tweets determine the top 10 hashtags used. For the purposes of scale the counting of the hashtags were implemented with Hadoop's map-reduce framework using the hadoop streaming api. The project is composed of four different programs. The first is "gettweets.py" which is used to collect tweets from Twitter. The next part are the map.py and reduce.py which are used to count the number of times each hashtag occurs. For map.py, one can specify a keyword and either "text" or "hashtag" in which it will only count tweets with the keyword present. Finally there is "gettophts.py" which is used to get the top 10 hashtags and then saves the tweets in directories according which top hashtag it has, no hashtag, or a non top 10 hashtag.
